@@ -5,13 +5,13 @@
     // $session_id = $_POST['sessionId'];
     // $service_code = $_POST['servicecode'];
 
-    $phone = $_GET['phoneNumber'];
-    $text = $_GET['text'];
+    // $phone = $_GET['phoneNumber'];
+    // $text = $_GET['text'];
 
-    $data = explode("*", $text);
+    // $data = explode("*");
 
     $level = 0;
-    $level = count($data);
+    // $level = count($data);
 
     echo $level . " ";
     
